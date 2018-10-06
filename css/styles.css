@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Avenir', sans-serif;
+}
+
+body {
+    background-color: #232323;
+    margin: 0;
+}
+
+header {
+    padding: 25px;
+    background-color: steelblue;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 > span {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+nav {
+    color: steelblue;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    color: steelblue;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+        --webkit-transition: background-color 0.5s;
+        --moz-transition: background-color 0.5s;
+}
+
+button.active, button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+#message {
+    display: inline-block;
+    font-size: 1rem;
+    width: 25%;
+}
+
+.container {
+    overflow: auto;
+    margin: 25px auto;
+    max-width: 700px;
+}
+
+.square {
+    border-radius: 15%;
+    background-color: #232323;
+    cursor: pointer;
+    float: left;
+    padding-bottom: 30%;
+    margin: calc(10% / 6);
+    width: 30%;
+    transition: background-color 0.75s;
+        --webkit-transition: background-color 0.75s;
+        --moz-transition: background-color 0.75s;
+}
